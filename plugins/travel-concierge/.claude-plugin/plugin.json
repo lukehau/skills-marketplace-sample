@@ -1,0 +1,17 @@
+{
+  "name": "travel-concierge",
+  "description": "Search and book corporate travel and manage your itineraries. Find flights and hotels within policy, confirm bookings, pull up your trip details, and cancel plans that change — all from the conversation.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Corporate Travel",
+    "email": "travel@example.com",
+    "url": "https://example.com/teams/travel"
+  },
+  "keywords": [
+    "travel",
+    "flights",
+    "hotels",
+    "itinerary",
+    "booking"
+  ]
+}

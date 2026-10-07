@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "skills-marketplace-sample",
+  "owner": {
+    "name": "Luke Harris"
+  },
+  "description": "A lightweight, self-hosted Claude plugin & skills marketplace.",
+  "plugins": [
+    {
+      "name": "expense-assistant",
+      "source": "./plugins/expense-assistant",
+      "description": "Turn receipts and card statements into a submitted expense report. Groups charges, applies the right spend categories, itemizes hotel folios, and flags anything that needs a receipt or an explanation before you file.",
+      "version": "1.3.0",
+      "author": {
+        "name": "Finance Operations",
+        "email": "finance-ops@example.com",
+        "url": "https://example.com/teams/finance-ops"
+      },
+      "category": "finance",
+      "keywords": [
+        "expenses",
+        "receipts",
+        "reimbursement",
+        "finance",
+        "reporting"
+      ]
+    },
+    {
+      "name": "meeting-summarizer",
+      "source": "./plugins/meeting-summarizer",
+      "description": "Summarize meeting notes or a transcript into decisions, action items, and owners. Turns a messy recap into a short summary anyone can skim, with clear next steps and due dates.",
+      "version": "2.0.1",
+      "author": {
+        "name": "Workplace Productivity",
+        "email": "productivity@example.com",
+        "url": "https://example.com/teams/productivity"
+      },
+      "category": "productivity",
+      "keywords": [
+        "meetings",
+        "notes",
+        "summary",
+        "action-items",
+        "productivity"
+      ]
+    },
+    {
+      "name": "travel-concierge",
+      "source": "./plugins/travel-concierge",
+      "description": "Search and book corporate travel and manage your itineraries. Find flights and hotels within policy, confirm bookings, pull up your trip details, and cancel plans that change — all from the conversation.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Corporate Travel",
+        "email": "travel@example.com",
+        "url": "https://example.com/teams/travel"
+      },
+      "category": "travel",
+      "keywords": [
+        "travel",
+        "flights",
+        "hotels",
+        "itinerary",
+        "booking"
+      ]
+    },
+    {
+      "name": "sales-followup",
+      "source": "./plugins/sales-followup",
+      "description": "Draft personalized follow-ups and keep your CRM pipeline current. Writes tailored follow-up emails after a call or meeting, reviews open deals, and logs activity and next-step tasks so nothing slips.",
+      "version": "0.8.0",
+      "author": {
+        "name": "Revenue Operations",
+        "email": "revops@example.com",
+        "url": "https://example.com/teams/revops"
+      },
+      "category": "sales",
+      "keywords": [
+        "sales",
+        "crm",
+        "follow-up",
+        "pipeline",
+        "outreach"
+      ]
+    },
+    {
+      "name": "hr-policy-helper",
+      "source": "./plugins/hr-policy-helper",
+      "description": "Answer employee questions about leave, benefits, and workplace policies in plain language. Explains how a policy applies to a person's situation and points them to the right next step or contact.",
+      "version": "1.0.0",
+      "author": {
+        "name": "People & Culture",
+        "email": "people@example.com",
+        "url": "https://example.com/teams/people"
+      },
+      "category": "people",
+      "keywords": [
+        "hr",
+        "policy",
+        "benefits",
+        "leave",
+        "people"
+      ]
+    },
+    {
+      "name": "contract-review",
+      "source": "./plugins/contract-review",
+      "description": "Review contracts and flag risky or non-standard clauses. Reads an agreement, highlights terms that deviate from your playbook, and suggests plain-language questions to raise before signing.",
+      "version": "0.5.0",
+      "author": {
+        "name": "Legal Operations",
+        "email": "legal-ops@example.com",
+        "url": "https://example.com/teams/legal"
+      },
+      "category": "legal",
+      "keywords": [
+        "contracts",
+        "legal",
+        "review",
+        "clauses",
+        "risk"
+      ]
+    }
+  ]
+}

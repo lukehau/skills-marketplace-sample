@@ -1,0 +1,25 @@
+{
+  "manifest_version": "0.3",
+  "name": "travel-concierge",
+  "display_name": "Travel Concierge",
+  "version": "1.1.0",
+  "description": "Search and book corporate travel and manage your itineraries. Find flights and hotels within policy, confirm bookings, pull up your trip details, and cancel plans that change — all from the conversation.",
+  "tools": [
+    {
+      "name": "search_flights",
+      "description": "Search for flights by origin, destination, and dates, returning options that fit the traveler's schedule and travel policy."
+    },
+    {
+      "name": "book_hotel",
+      "description": "Book a hotel room for a given city and date range within the traveler's nightly rate limit."
+    },
+    {
+      "name": "get_itinerary",
+      "description": "Retrieve the full itinerary for a trip, including flights, hotels, and confirmation numbers."
+    },
+    {
+      "name": "cancel_booking",
+      "description": "Cancel an existing flight or hotel booking and return the cancellation status."
+    }
+  ]
+}

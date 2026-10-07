@@ -1,0 +1,17 @@
+{
+  "name": "hr-policy-helper",
+  "description": "Answer employee questions about leave, benefits, and workplace policies in plain language. Explains how a policy applies to a person's situation and points them to the right next step or contact.",
+  "version": "1.0.0",
+  "author": {
+    "name": "People & Culture",
+    "email": "people@example.com",
+    "url": "https://example.com/teams/people"
+  },
+  "keywords": [
+    "hr",
+    "policy",
+    "benefits",
+    "leave",
+    "people"
+  ]
+}

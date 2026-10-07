@@ -1,0 +1,21 @@
+{
+  "manifest_version": "0.3",
+  "name": "sales-followup",
+  "display_name": "Sales Follow-up",
+  "version": "0.8.0",
+  "description": "Draft personalized follow-ups and keep your CRM pipeline current. Writes tailored follow-up emails after a call or meeting, reviews open deals, and logs activity and next-step tasks so nothing slips.",
+  "tools": [
+    {
+      "name": "get_pipeline",
+      "description": "Retrieve the current sales pipeline, listing open deals with their stage, value, and next step."
+    },
+    {
+      "name": "log_activity",
+      "description": "Log an activity such as a call, email, or meeting against a contact or deal in the CRM."
+    },
+    {
+      "name": "create_task",
+      "description": "Create a follow-up task with a due date and link it to the relevant deal or contact."
+    }
+  ]
+}

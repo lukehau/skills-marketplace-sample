@@ -1,0 +1,17 @@
+{
+  "name": "contract-review",
+  "description": "Review contracts and flag risky or non-standard clauses. Reads an agreement, highlights terms that deviate from your playbook, and suggests plain-language questions to raise before signing.",
+  "version": "0.5.0",
+  "author": {
+    "name": "Legal Operations",
+    "email": "legal-ops@example.com",
+    "url": "https://example.com/teams/legal"
+  },
+  "keywords": [
+    "contracts",
+    "legal",
+    "review",
+    "clauses",
+    "risk"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sales-followup",
+  "description": "Draft personalized follow-ups and keep your CRM pipeline current. Writes tailored follow-up emails after a call or meeting, reviews open deals, and logs activity and next-step tasks so nothing slips.",
+  "version": "0.8.0",
+  "author": {
+    "name": "Revenue Operations",
+    "email": "revops@example.com",
+    "url": "https://example.com/teams/revops"
+  },
+  "keywords": [
+    "sales",
+    "crm",
+    "follow-up",
+    "pipeline",
+    "outreach"
+  ]
+}

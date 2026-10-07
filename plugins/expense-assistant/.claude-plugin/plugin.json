@@ -1,0 +1,17 @@
+{
+  "name": "expense-assistant",
+  "description": "Turn receipts and card statements into a submitted expense report. Groups charges, applies the right spend categories, itemizes hotel folios, and flags anything that needs a receipt or an explanation before you file.",
+  "version": "1.3.0",
+  "author": {
+    "name": "Finance Operations",
+    "email": "finance-ops@example.com",
+    "url": "https://example.com/teams/finance-ops"
+  },
+  "keywords": [
+    "expenses",
+    "receipts",
+    "reimbursement",
+    "finance",
+    "reporting"
+  ]
+}

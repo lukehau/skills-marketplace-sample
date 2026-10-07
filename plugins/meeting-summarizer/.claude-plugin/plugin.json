@@ -1,0 +1,17 @@
+{
+  "name": "meeting-summarizer",
+  "description": "Summarize meeting notes or a transcript into decisions, action items, and owners. Turns a messy recap into a short summary anyone can skim, with clear next steps and due dates.",
+  "version": "2.0.1",
+  "author": {
+    "name": "Workplace Productivity",
+    "email": "productivity@example.com",
+    "url": "https://example.com/teams/productivity"
+  },
+  "keywords": [
+    "meetings",
+    "notes",
+    "summary",
+    "action-items",
+    "productivity"
+  ]
+}
